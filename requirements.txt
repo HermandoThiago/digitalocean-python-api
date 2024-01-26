@@ -3,5 +3,6 @@ charset-normalizer==3.3.2
 idna==3.6
 jsonpickle==3.0.2
 python-digitalocean==1.17.0
+python-dotenv==1.0.1
 requests==2.31.0
 urllib3==2.1.0
