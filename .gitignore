@@ -1,2 +1,8 @@
+# VIRTUAL ENVIRONMENTS
 .venv
+.idea
+
+# ENV
 .env
+
+

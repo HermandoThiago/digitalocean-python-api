@@ -43,10 +43,10 @@ def create_droplet(request) -> Droplet:
         TOKEN = os.getenv("DIGITAL_OCEAN_TOKEN")
 
         droplet = do.Droplet(token=TOKEN,
-                             name=request.name,
-                             region=request.region,
-                             image=request.image,
-                             size_slug=request.size_slug)
+                             name=request['name'],
+                             region=request['region'],
+                             image=request['image'],
+                             size_slug=request['size_slug'])
         droplet.create()
 
         return droplet
