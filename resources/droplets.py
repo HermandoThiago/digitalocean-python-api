@@ -61,9 +61,6 @@ def destroy_droplet(droplet_id: str) -> None:
     Args:
     droplet_id (str): The ID of the droplet to be destroyed.
 
-    Returns:
-    None
-
     Raises:
     DropletError: If an error occurs during the destruction of the droplet.
     """
